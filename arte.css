@@ -13,6 +13,7 @@ body{
   animation:teste 5s infinite;
   white-space: nowrap;
   overflow:hidden;
+  tranform:rotate(90deg);
 }
 .conteiner{
   display:flex;
@@ -32,4 +33,6 @@ body{
 .line{
    width:0;
    animation: teste 5s infinite;
+   tranform:rotate(90deg);
 }
+
