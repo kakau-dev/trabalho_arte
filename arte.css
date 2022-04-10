@@ -28,10 +28,9 @@ body{
 .traço{
    width:2px;
    height:40px;
-   margin-top:32px;
+   margin-top:23px;
    border:2px solid #f4f4f7;
 }
 .com{
    display:flex;
-   transform:rotate(90deg);
 }
