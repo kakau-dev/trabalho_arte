@@ -7,7 +7,7 @@
        <link rel="stylesheet" href="arte.css">
        <title>projeto_artes</title>
 </head>
-<body>
+<body touch="active()">
    <div class="conteiner">
          
          <div  class="com">
@@ -26,10 +26,11 @@
      let contador=0
      let text=""
      let iniciar=0
+     function active(){
      let traço=document.querySelector(".traço")
      setInterval(()=>{if(frase.length > contador){
      document.querySelector(".frase").innerHTML+=frase[contador];contador+=1}else{liga()}},320)
-     
+     }
      function liga(){
      iniciar++
      if(iniciar==1){
