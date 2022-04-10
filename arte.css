@@ -33,5 +33,5 @@ body{
 }
 .com{
    display:flex;
-   tranform:rotate(90deg);
+   transform:rotate(90deg);
 }
