@@ -33,4 +33,5 @@ body{
 }
 .com{
    display:flex;
+   tranform:rotate(90deg);
 }
