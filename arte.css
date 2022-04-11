@@ -34,5 +34,7 @@ html,body{
 .com{
    display:flex;
    transform:rotate(90deg);
+   justify-content:center;
+   align-items:center;
 }
 
