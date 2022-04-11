@@ -1,0 +1,50 @@
+html,body{
+   margin:0;
+   padding:0;    
+   background:#23222B;
+}
+.frase{
+   display:flex;
+  -webkit-text-stroke:2px white;
+  font-size:70px;
+  margin:0;
+  padding:0px;
+  color:rgba(255, 255, 255, 0);
+  white-space: nowrap;
+
+}
+.box{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   max-height:100vh;
+
+}
+.conteiner{
+  display:flex;
+  height:100vh;
+  width:100vh;
+  justify-content:center;
+  align-items:center;
+  background:#23222B;
+}
+
+.line{
+   width:100;
+   transform:rotate(90deg);
+   animation: teste 5s infinite;
+}
+.traço{
+   width:2px;
+   height:40px;
+   margin-top:3px;
+   border:2px solid #f4f4f7;
+}
+.com{
+   display:flex;
+   transform:rotate(90deg);
+   justify-content:center;
+
+   align-items:center;
+}
