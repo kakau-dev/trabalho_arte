@@ -1,4 +1,4 @@
-body{
+html,body{
    margin:0;
    padding:0;    
    background:#23222B;
@@ -15,6 +15,7 @@ body{
 }
 .conteiner{
   display:flex;
+  height:100vh;
   justify-content:center;
   align-items:center;
   background:#23222B;
