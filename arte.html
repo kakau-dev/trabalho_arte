@@ -20,7 +20,7 @@
   <h1></h1>
 </body>
    <script>
-     scroll(0,window.screen.height/window.screen.width)
+     scroll(window.screen.height/window.screen.width,0)
      document.body.addEventListener("dblclick",()=>{window.location.reload()})
      let input="";
      input = prompt("digite palavra desejada:")  
@@ -30,7 +30,7 @@
      let iniciar=0 
      let traço=document.querySelector(".traço")
      function active(){
-        setInterval(()=>{if(frase.length > contador){document.querySelector(".frase").innerHTML+=frase[contador];contador+=1;scroll(0,window.screen.height/window.screen.width)}else{liga()}},320)
+        setInterval(()=>{if(frase.length > contador){document.querySelector(".frase").innerHTML+=frase[contador];contador+=1;scroll(window.screen.height/window.screen.width,0)}else{liga()}},320)
      }
      function liga(){
      iniciar++
